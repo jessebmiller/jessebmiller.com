@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesse B. Miller</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Jesse B. Miller</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2020 17:03:45 -0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Post Two</title>
+      <link>http://example.org/posts/test-post-two/</link>
+      <pubDate>Sun, 05 Jan 2020 18:53:53 -0600</pubDate>
+      
+      <guid>http://example.org/posts/test-post-two/</guid>
+      <description>&lt;p&gt;Lorem ipsum summary of the post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test Post</title>
+      <link>http://example.org/posts/test-post/</link>
+      <pubDate>Sun, 05 Jan 2020 18:53:46 -0600</pubDate>
+      
+      <guid>http://example.org/posts/test-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum summary of the post.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
