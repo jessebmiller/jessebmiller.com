@@ -4,6 +4,13 @@
   <section class="full-column">
     <article>
       {{ partial "title.html" . }}
+      <div class="publication-dates">
+        <strong>Published:</strong>{{ partial "time.html" .PublishDate }}
+        <strong>Updated:</strong> {{ partial "time.html" .Lastmod }}
+      </div>
+      <div class="authorship">
+        {{ .GitInfo }}
+      </div>
       {{ .Content }}
     </article>
   </section>

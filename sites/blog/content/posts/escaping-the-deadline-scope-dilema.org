@@ -1,0 +1,6 @@
+---
+title: "Escaping the Deadline Scope Dilema"
+date: 2020-01-07T20:39:23-06:00
+draft: true
+---
+

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Abril+Fatface|Open+Sans:400,700');
 
 html {
     font-family: 'Open Sans', sans-serif;
@@ -8,6 +8,7 @@ body {
     line-height: 1.2em;
     background: #eae7dc;
     color: #1d1d1d;
+    font-size: 14pt;
 }
 
 footer {
@@ -15,45 +16,64 @@ footer {
     margin-top: 5vw;
 }
 
+code {
+    font-family: 'Source Code Pro', monospace;
+    background:#b7b7b7;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
 h1, h2{
     font-family: 'Abril Fatface', cursive;
 }
 
+.summaries {
+    margin-top: 9vw;
+}
+
 .title h1 {
-    font-size: 3em;
+    font-size: 9.26vw;
+    padding-top: 9vw;
+    line-height: 0.735em;
 }
 
 .title h2 {
-    font-size: 1.84em;
-}
-
-h1 {
-    font-size: 1.6em;
+    font-size: 3.95vw;
+    line-height: .59em;
+    margin-top: .5vw;
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 2em;
+    line-height: 1em;
 }
 
-h3 {
-    font-size: 0.65em;
-    line-height: 0em;
-    font-weight: bold;
-    margin: 2em 0em .4em 0em;}
+.page-summary h2 {
+    margin-bottom: 1em;
+    margin-top: 1.6em;
+}
 
 ul {
     margin: 4vw 0vw;
 }
 
-time {
-    font-size: 18px;
-    line-height: 0em;
+.publication-dates {
+    margin: 3vw 0;
 }
 
-p {
-    margin: 1vh 0vh;
+time, p, article ul {
+    list-style-type: circle;
+    margin: 5vh 0vh;
     line-height: 2em;
-    font-size: 18px;
+    max-width: 800px;
+}
+
+time {
+    margin-top: 1em;
+}
+
+article ul {
+    margin: 1em 0em 1em 2em;
 }
 
 strong {
@@ -81,9 +101,7 @@ a:active {
 }
 
 .title {
-    line-height: 8em;
-    padding-top: 10vw;
-    padding-bottom: 4.4vw;
+    line-height: 2.21em;
 }
 
 .title a {
@@ -116,10 +134,6 @@ header a img:hover {
         float: left;
     }
 
-    body {
-        font-size: 3.07vw;
-    }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -134,9 +148,6 @@ header a img:hover {
         width: 26vw;
     }
 
-    body {
-        font-size: 4.36vw;
-    }
 }
 
 

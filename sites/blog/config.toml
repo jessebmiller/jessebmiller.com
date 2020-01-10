@@ -2,4 +2,4 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Jesse B. Miller"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-sectionPagesMenu = "sectionPages"
+enableGitInfo = "true"
